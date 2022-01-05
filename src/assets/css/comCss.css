@@ -1,0 +1,41 @@
+/**
+ *@desc    一些公共的样式
+ *@author  hx
+ *@date    2021/04/08
+ */
+.average-word {
+  vertical-align: top;
+  line-height: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin: 20px 10px 0 20px;
+  display: inline-block;
+  text-align: justify;
+  width: 50px;
+}
+.average-word::after {
+  content: '';
+  padding-left: 100%;
+  display: inline-block;
+}
+.line_number1 {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 1 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+.line_number2 {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+.line_number3 {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
